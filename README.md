@@ -2,7 +2,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, create a file named "env.local" and crea a variable named "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY" and add your google maps APIKEY
+
+Second, install all dependencies:
+
+        "@radix-ui/react-avatar": "^1.1.0",
+        "@radix-ui/react-checkbox": "^1.1.1",
+        "@radix-ui/react-dialog": "^1.1.1",
+        "@radix-ui/react-popover": "^1.1.1",
+        "@react-google-maps/api": "^2.19.3",
+        "axios": "^0.21.1",
+        "bcryptjs": "^2.4.3",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "lucide-react": "^0.445.0",
+        "next": "latest",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "some-library": "^1.0.0",
+        "tailwind-merge": "^2.5.2"
+
+Third, run the development server:
 
 ```bash
 npm run dev
@@ -13,6 +34,8 @@ pnpm dev
 # or
 bun dev
 ```
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
