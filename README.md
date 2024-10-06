@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, create a file named "env.local" and crea a variable named "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY" and add your google maps APIKEY
+First, create a file named "env.local" and create a variable named "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY" and add your google maps APIKEY
 
 Second, install all dependencies:
 
